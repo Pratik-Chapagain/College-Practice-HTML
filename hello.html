@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Profile Card</title>
 </head>
-<body>
-    <div class="p-6 bg-white rounded-lg shadow-lg">
-        <div class="flex items-center space-x-4">
-          <img src="WhatsApp Image 2024-06-19 at 23.01.06_5d579147.jpg" alt="Profile image" class="rounded-full w-14 h-14"/>
-          <div>
-            <h2 class="text-lg font-bold">Pratik Chapagain</h2>
-            <p class="text-sm text-gray-600">Not Important</p>
-          </div>
+<body class="flex items-center justify-center h-screen">
+    <div class="p-6 bg-green-100 border-2 border-indigo-600 border-solid rounded-lg shadow-md w-80 rounded-3xl">
+        <img src="WhatsApp Image 2024-06-19 at 23.01.06_5d579147.jpg" alt="Profile Picture" class="w-16 h-16 mx-auto mb-4 rounded-full">
+        <h1 class="text-xl font-semibold text-center">Pratik Chapagain</h1>
+        <p class="text-sm text-center text-gray-600">Full Stack Developer</p>
+        <div class="flex justify-center mt-4 space-x-2">
+            <a href="https://www.linkedin.com/in/pratik-chapagain-3272482a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3Bm%2Fsk8Dz8Sg%2BS9hd28UC%2FEA%3D%3D" class="text-blue-500 hover:underline">LinkedIn</a>
+            <a href="https://github.com/Pratik-Chapagain" class="text-blue-500 hover:underline">Github</a>
         </div>
-        <div class="mt-4">
-          <a href="#" class="text-blue-500 hover:text-blue-600">Instagram link</a>
+        <div class="flex justify-center mt-4 space-x-4">
+            <div>
+                <p class="text-sm text-gray-600">Followers</p>
+                <p class="font-semibold">12,478</p>
+            </div>
+            <div>
+                <p class="text-sm text-gray-600">Following</p>
+                <p class="font-semibold">432</p>
+            </div>
         </div>
-        <div class="flex justify-between mt-4">
-          <div class="flex items-center space-x-1">
-            <svg> <!-- Followers icon SVG here --> </svg>
-            <span>Followers count</span>
-          </div>
-          <div class="flex items-center space-x-1">
-            <svg> <!-- Following icon SVG here --> </svg>
-            <span>Following count</span>
-          </div>
-          <!-- Add more metrics as needed -->
-        </div>
-      </div>
-      
+    </div>
 </body>
 </html>
